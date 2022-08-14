@@ -7,9 +7,9 @@ PreCommit:
     problem_on_unmodified_line: ignore
     command: ['bundle', 'exec', 'rubocop']
 
-#  ForbiddenBranches:
-#    enabled: true
-#    branch_patterns: ['master']
+  ForbiddenBranches:
+    enabled: true
+    branch_patterns: ['master']
 
   TrailingWhitespace:
     enabled:
