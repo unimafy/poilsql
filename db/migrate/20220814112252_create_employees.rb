@@ -11,4 +11,3 @@ class CreateEmployees < ActiveRecord::Migration[7.0]
     end
   end
 end
-# rails generate model performance_review score:integer employee_id:references reviewer_id:references
